@@ -1,0 +1,51 @@
+.main-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+.login-con {
+  padding: 40px;
+  box-shadow: black;
+}
+.log-img {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.label {
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: 300;
+  color: #1e293b;
+}
+.input {
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 300;
+  color: #1e293b;
+  padding: 15px;
+  border: 1px solid #475569;
+}
+.button-login {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
